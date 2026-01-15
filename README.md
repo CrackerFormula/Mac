@@ -17,5 +17,15 @@ brew bundle --file ./Brewfile
 
 ## Notes
 
+- Brew installs:
+  - bitwarden
+  - coteditor
+  - firefox
+  - steam
+  - visual-studio-code
+  - cloudflare-warp
+  - discord
+  - plex
+  - trilium-notes
 - If you need Mac App Store apps, we can add a `mas` section to the `Brewfile`.
 - If you want Homebrew `git`, add `brew "git"` to the `Brewfile`.
