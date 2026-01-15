@@ -2,6 +2,14 @@
 
 Apple Silicon macOS bootstrap that installs Homebrew, apps, and preferences.
 
+## Clean install (copy/paste)
+
+```sh
+git clone https://github.com/CrackerFormula/Mac.git
+cd Mac
+./scripts/bootstrap.sh
+```
+
 ## One-step install
 
 ```sh
