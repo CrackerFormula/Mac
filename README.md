@@ -1,6 +1,6 @@
 # Clean Setup
 
-Apple Silicon macOS bootstrap that installs Homebrew, apps, and preferences.
+Apple Silicon macOS bootstrap that installs Xcode Command Line Tools, Homebrew, apps, and preferences.
 
 ## Clean install (copy/paste)
 
@@ -15,6 +15,10 @@ cd Mac
 ```sh
 ./scripts/bootstrap.sh
 ```
+
+Notes:
+- The script installs Xcode Command Line Tools via `softwareupdate` when possible (may prompt for your password).
+- If the update label is unavailable, it falls back to the GUI installer.
 
 ## Manual steps
 
