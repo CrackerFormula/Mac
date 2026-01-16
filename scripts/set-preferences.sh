@@ -5,9 +5,8 @@ set -euo pipefail
 
 defaults write com.apple.dock autohide -bool true
 
-# Clean Dock with Finder, Launchpad (Apps), Firefox, Messages, and System Settings
+# Clean Dock with Launchpad (Apps), Firefox, Messages, and System Settings
 defaults write com.apple.dock persistent-apps -array \
-  "<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/System/Library/CoreServices/Finder.app</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>" \
   "<dict><key>tile-type</key><string>launchpad-tile</string></dict>" \
   "<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/Applications/Firefox.app</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>" \
   "<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/System/Applications/Messages.app</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>" \
